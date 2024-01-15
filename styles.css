@@ -7,6 +7,12 @@ h1{
     text-align: center;
     font-weight: 300;
 }
+body{
+    background: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .container {
     width: 800px;
     height: 600px;
