@@ -1,3 +1,4 @@
+//for enlarge the Image
 function enlargeImage(imgElement) {
     var body = document.body;
     var popupContainer = document.getElementById('popup-container');
@@ -9,7 +10,7 @@ function enlargeImage(imgElement) {
     body.classList.add('enlarged');
     popupContainer.style.display = 'block';
 }
-
+//for closing the pop screen
 function closePopup() {
     var body = document.body;
     var popupContainer = document.getElementById('popup-container');
@@ -17,9 +18,7 @@ function closePopup() {
     body.classList.remove('enlarged');
     popupContainer.style.display = 'none';
 }
-
-
-
+//for carousel
 const slider = document.getElementById('carousel');
     let currentIndex = 0;
 
